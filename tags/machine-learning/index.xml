@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning on Rizdi Aprilian Blog</title>
+    <link>https://github.com/rizdiaprilian/jimmythenouna/tags/machine-learning/</link>
+    <description>Recent content in machine learning on Rizdi Aprilian Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://github.com/rizdiaprilian/jimmythenouna/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter I: Support Vector Machine</title>
+      <link>https://github.com/rizdiaprilian/jimmythenouna/post/chapter-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://github.com/rizdiaprilian/jimmythenouna/post/chapter-1/</guid>
+      <description># Python ≥3.5 is required import sys import sklearn import numpy as np import os # to make this notebook&#39;s output stable across runs np.random.seed(42) # To plot pretty figures %matplotlib inline import matplotlib as mpl import matplotlib.pyplot as plt from sklearn.svm import SVC from sklearn import datasets iris = datasets.load_iris() X = iris[&amp;quot;data&amp;quot;][:, (2, 3)] # petal length, petal width y = iris[&amp;quot;target&amp;quot;] setosa_or_versicolor = (y == 0) | (y == 1) X = X[setosa_or_versicolor] y = y[setosa_or_versicolor] # SVM Classifier model svm_clf = SVC(kernel=&amp;quot;linear&amp;quot;, C=float(&amp;quot;inf&amp;quot;)) svm_clf.</description>
+    </item>
+    
+  </channel>
+</rss>
